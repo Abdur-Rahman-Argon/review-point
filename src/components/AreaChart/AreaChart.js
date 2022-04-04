@@ -10,7 +10,7 @@ const AreaChart = () => {
   console.log(data);
   return (
     <div>
-      <h1>Area Chart</h1>
+      <h1 className="text-3xl">Investment Vs Revenue(in AreaChart)</h1>
     </div>
   );
 };

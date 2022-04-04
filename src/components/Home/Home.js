@@ -9,13 +9,13 @@ const Home = () => {
     <div>
       <div className="md:grid grid-cols-2 p-16">
         <div className="m-10 px-20 pt-10">
-          <h1 className="text-4xl mb-4 font-bold">Your Next Phone</h1>
-          <h1 className="text-4xl mb-4 font-semibold">Your Best Phone</h1>
+          <h1 className="text-4xl mb-4 font-bold">Your LED Monitor</h1>
+          <h1 className="text-4xl mb-4 font-semibold">Select Now</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            voluptas placeat quo tempore itaque, reiciendis labore fugit
-            veritatis praesentium natus rem animi neque minus. Temporibus
-            blanditiis necessitatibus a deserunt voluptas?
+            If Your buy a LED monitor, Now select this Monitor. this monitor has
+            a beautiful color grading, 4k video rasulation and Life time
+            replacement Geranty. So,You Directly select this Monuitor for your
+            kindness. If Needed please cheack Our Customer Review.
           </p>
           <button className="rounded-lg flex border-2 px-5 py-2 m-5 bg-emerald-500 ">
             <span> Live Demo </span>
@@ -28,13 +28,12 @@ const Home = () => {
       </div>
       <div>
         <Reviews></Reviews>
-        <div className="m-1 ">
+        <div className="m-1">
           <Link
-            className="rounded-lg border-2 content-center w-48 px-5 py-2  bg-emerald-500 "
+            className="rounded-lg border-2 w-48 px-5 py-2  bg-emerald-500 content-center"
             to="/reviews"
           >
-            <span> See all review </span>
-            <ArrowRightIcon className="w-6"></ArrowRightIcon>
+            See all review
           </Link>
         </div>
       </div>
