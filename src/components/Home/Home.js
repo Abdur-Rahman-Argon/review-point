@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       <div className="md:grid grid-cols-2 p-16">
         <div className="m-10 px-20 pt-10">
-          <h1 className="text-4xl mb-4 font-bold">Your LED Monitor</h1>
+          <h1 className="text-4xl mb-4 font-bold">Your Best LED Monitor</h1>
           <h1 className="text-4xl mb-4 font-semibold">Select Now</h1>
           <p>
             If Your buy a LED monitor, Now select this Monitor. this monitor has

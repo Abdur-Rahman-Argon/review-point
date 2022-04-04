@@ -15,9 +15,9 @@ const Dashboard = () => {
     <div>
       <div className="md:grid md:grid-cols-2 m-5">
         <Recharts className="my-4" data={data}></Recharts>
-        <AreaChart className="my-4"></AreaChart>
-        <BarChart className="my-4"></BarChart>
-        <PaiChart className="my-4"></PaiChart>
+        <AreaChart className="my-4" data={data}></AreaChart>
+        <BarChart className="my-4" data={data}></BarChart>
+        <PaiChart className="my-4" data={data}></PaiChart>
       </div>
     </div>
   );
