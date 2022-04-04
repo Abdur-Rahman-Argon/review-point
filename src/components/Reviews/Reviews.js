@@ -60,7 +60,7 @@ const Reviews = () => {
   ];
   return (
     <div>
-      <h2 className="text-3xl ">Customer Review</h2>
+      <h2 className="text-3xl font-semibold p-2 m-5">Customer Review:</h2>
       <div className="md:grid grid-cols-3">
         {reviews.map((review) => (
           <Review key={review.id} review={review}></Review>
