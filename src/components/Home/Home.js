@@ -28,9 +28,9 @@ const Home = () => {
       </div>
       <div>
         <Reviews></Reviews>
-        <div className="m-10">
+        <div className="m-1 ">
           <Link
-            className="rounded-lg border-2 flex w-48 px-5 py-2  bg-emerald-500 "
+            className="rounded-lg border-2 content-center w-48 px-5 py-2  bg-emerald-500 "
             to="/reviews"
           >
             <span> See all review </span>
