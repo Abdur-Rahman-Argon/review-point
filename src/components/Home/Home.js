@@ -15,7 +15,7 @@ const Home = () => {
             If Your buy a LED monitor, Now select this Monitor. this monitor has
             a beautiful color grading, 4k video rasulation and Life time
             replacement Geranty. So,You Directly select this Monuitor for your
-            kindness. If Needed please cheack Our Customer Review.
+            future Life. If Needed please cheack Our Customer Review.
           </p>
           <button className="rounded-lg flex border-2 px-5 py-2 m-5 bg-emerald-500 ">
             <span> Live Demo </span>
