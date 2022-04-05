@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Reviews from "../Reviews/Reviews";
 import Tv from "../../image/led-tv.png";
 import { ArrowRightIcon } from "@heroicons/react/solid";
+import HomeReviews from "../HomeReviews/HomeReviews";
 
 const Home = () => {
   return (
@@ -27,7 +27,7 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <Reviews></Reviews>
+        <HomeReviews></HomeReviews>
         <div className="m-1">
           <Link
             className="rounded-lg border-2 w-48 px-5 py-2  bg-emerald-500 content-center"
